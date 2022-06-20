@@ -27,4 +27,15 @@ Vaeribals are containers that hold value
 1. Always start with a letter
 2. `1namee = "Nathan" --> Not allowed
 3. 2. Can only contain numbers, letters, and underscores(_ `my name = Nqathan --> NOT ALLOWED
-   3. If more than one word, use camlCase
+   3. If more than one word, use camlCase or underscore to separate words
+      `myFirstName` or my_first_name
+
+      ## Concatenation
+      `+` Adding strings together, appending (add to end)
+      `"Hello" + "World" = "Hello World"
+
+      ## Type Cast
+      Forcing a data type on a value
+
+      ### To force a string into an integer
+      `int(variablName)`
